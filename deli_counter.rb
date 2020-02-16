@@ -16,10 +16,8 @@ def line(array)
  end
 end  
 
-def take_a_number(current_line, name)
-   current_line << name
-  
- puts "Welcome, #{name}. You are number #{count} in line."
- count += 1
+def take_a_number(array, name)
+  array.push(name)
+ puts "Welcome, #{name}. You are number #{array.length} in line."
  end
 end
