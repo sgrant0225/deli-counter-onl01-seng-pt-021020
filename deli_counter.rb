@@ -28,7 +28,7 @@ def now_serving(array)
    #people_in_line = []
    array.length >= 1
    array.each do |name|
-   name.delete.last
+   name.delete[-1]
   end
  end
 end
