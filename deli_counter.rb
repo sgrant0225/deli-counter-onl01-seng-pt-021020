@@ -30,6 +30,7 @@ def now_serving(array)
    array.each do |name|
      binding.pry
    name.delete(-1)
+  end
  end
 end
 
