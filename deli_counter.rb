@@ -27,7 +27,7 @@ def now_serving(array)
  else
    people_in_line = []
    array.length >= 1
-   array.delete.last
+   array.delete
  end
 end
 
