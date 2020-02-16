@@ -25,7 +25,8 @@ def now_serving(array)
  if array.length == 0
    puts "There is nobody waiting to be served!"
  else
-   array.delete(name)
+   people_in_line = []
+   array.length >= 1
  end
 end
 
